@@ -41,13 +41,13 @@ int main()
         }
     else if (Option == 3)
     {
-        int Multiply1;
-        int Multiply2;
+        long long int Multiply1;
+        long long int Multiply2;
          cout <<" Enter the first number :" << flush;
         cin>> Multiply1;
         cout <<"Enter the second number :" << flush;
         cin>> Multiply2;
-        int Multiply3=Multiply1*Multiply2;
+        long long int Multiply3=Multiply1*Multiply2;
         cout<<"Answer = "<< Multiply3<<endl;
 
     }
