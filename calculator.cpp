@@ -47,8 +47,8 @@ int main()
         cin>> Multiply1;
         cout <<"Enter the second number :" << flush;
         cin>> Multiply2;
-        long long int Multiply3=Multiply1*Multiply2;
-        cout<<"Answer = "<< Multiply3<<endl;
+        long double Multiply3=Multiply1*Multiply2;
+        cout<<"Answer = "<<setprecision(0)<<fixed<<Multiply3<<endl;
 
     }
     else if (Option == 4)
