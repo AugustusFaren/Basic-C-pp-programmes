@@ -15,16 +15,16 @@ int main()
     int Option;
     int Add1;
     int Add2;
-    int Add3=Add1+Add2;
+    int Add3;
     int Subract1;
     int Subract2;
-    int Subract3=Subract1-Subract2;
+    int Subract3;
     long long int Multiply1;
     long long int Multiply2;
-    long double Multiply3=Multiply1*Multiply2;
+    long double Multiply3;
     float Divide1;
     float Divide2;
-    float Divide3=Divide1/Divide2;
+    float Divide3;
     cout <<" Your Option : " << flush;
     cin>> Option;
     switch(Option){
@@ -34,7 +34,7 @@ case 1:
         cin>> Add1;
         cout <<"Enter the second number :" << flush;
         cin>> Add2;
-
+        Add3=Add1+Add2;
         cout<<"Answer = "<< Add3<<endl;
     break;
 case 2:
@@ -42,6 +42,7 @@ case 2:
         cin>> Subract1;
         cout <<"Enter the second number :" << flush;
         cin>> Subract2;
+        Subract3 = Subract1-Subract2
         cout<<"Answer = "<< Subract3<<endl;
 
         break;
@@ -50,6 +51,7 @@ case 3:
         cin>> Multiply1;
         cout <<"Enter the second number :" << flush;
         cin>> Multiply2;
+        Multiply3=Multiply1*Multiply2
         cout<<"Answer = "<<setprecision(0)<<fixed<<Multiply3<<endl;
         break;
 
@@ -58,6 +60,7 @@ case 4:
         cin>> Divide1;
         cout <<"Enter the second number :" << flush;
         cin>> Divide2;
+        Divide3=Divide1/Divide2
         cout<<"Answer = "<< Divide3<<endl;
         break;
 
